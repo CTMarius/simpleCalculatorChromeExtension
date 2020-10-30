@@ -3,13 +3,15 @@
     left: 150px;
     width: 150px;
     height:100px;
-    background:gray  
+    background:gray;  
+    padding-bottom: 25px; 
+  
 }
 .result {    
     position: static;
     left: 150px;
     width:150px;
-	height:50px;
+	  height:50px;
     margin-top: 25px;    
     background:#F4F2ED;
     text-align: center;
@@ -30,11 +32,12 @@
     border-style: solid;
     color: black;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #A9C9E0;
-  padding: 10px;
+  padding: 10px;  
 }
 .looks:hover {
 	background-color: #4289BE;  
