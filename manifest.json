@@ -1,6 +1,6 @@
 {
 	"name": "Simple Calculator",
-	"version": "1.5",
+	"version": "1.6",
 	"manifest_version": 2,
 	"icons": {
 		"128": "Icon.png"
@@ -8,6 +8,7 @@
 	"browser_action": {
 		"default_title": "Simple Calculator",
 		"default_popup": "popup.html"
-	}
+	},
+	"minimum_chrome_version": "26.0.0.0"
 	 
 }
