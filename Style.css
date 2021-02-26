@@ -1,48 +1,52 @@
 .container {
-    position: left;
-    left: 150px;
-    width: 150px;
-    height:100px;
-    background:gray;  
-    padding-bottom: 25px; 
-  
+	position: left;
+	left: 150px;
+	width: 150px;
+	height: 100px;
+	background: gray;
+	padding-bottom: 25px;
 }
-.result {    
-    position: static;
-    left: 150px;
-    width:150px;
-	  height:50px;
-    margin-top: 25px;    
-    background:#F4F2ED;
-    text-align: center;
-    color: black;
-    font-size:20px;
-    overflow-wrap: break-word;
-    overflow: scroll;
-    text-overflow: ellipsis;
-    white-space : normal;
+
+.result {
+	position: static;
+	left: 150px;
+	width: 150px;
+	height: 50px;
+	margin-top: 25px;
+	background: #F4F2ED;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	overflow-wrap: break-word;
+	overflow: scroll;
+	text-overflow: ellipsis;
+	white-space: normal;
 }
+
 ::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
-.looks { 
-    padding: 5px;
-    font-size: 15px;
-    text-align: center;
-    border-style: solid;
-    color: black;
+
+.looks {
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+	border-style: solid;
+	color: black;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #A9C9E0;
-  padding: 10px;  
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #A9C9E0;
+	padding: 10px;
 }
+
 .looks:hover {
-	background-color: #4289BE;  
+	background-color: #4289BE;
 }
+
 .looks:active {
-  background-color: #3C99AA;
-  top: +2px;
+	background-color: #3C99AA;
+	top: +2px;
 }
