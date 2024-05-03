@@ -5,6 +5,7 @@
 	height: 100px;
 	background: gray;
 	padding-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .result {
@@ -40,6 +41,7 @@
 	grid-template-columns: auto auto auto;
 	background-color: #A9C9E0;
 	padding: 10px;
+	margin-bottom: 20px;
 }
 
 .looks:hover {
